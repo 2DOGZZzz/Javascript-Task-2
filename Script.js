@@ -45,8 +45,7 @@ else
                                                                                                                                                                                                                                                                         
 const li = document.createElement('li');
 li.classList.add('task');
- li.innerHTML = `
- <div> <strong>Name:${name}, </strong> <strong>Mark: ${mark }%, </strong><strong>Outcome:${response}</strong> `;                                                                                                                                                                                                                                                                                                     
+ li.innerHTML = ` <strong>Name:${name}, </strong> <strong>Mark: ${mark }%, </strong><strong>Outcome:${response}</strong> `;                                                                                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                                 
 
 Resultslist.appendChild(li);
