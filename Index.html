@@ -2,21 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Students evaluation</title>
-</head>
-<body>
-    <h4 id="main-title">Student Evaluation Form</h4>
-    <input type="text" id="NameInput" placeholder="Enter Student Name">
- <input type="Number" id="MarkInput" placeholder="Enter Student Mark">
-    <button id="SubmitBtn">Submit</button>
-    <div>
-        <h4> Results => </h4>
-    <ul id = "Results-list"></ul>
-    
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+            <title>Students evaluation</title>
+            </head>
+            <body>
+                <div class = 'container'>
+                        
+                            <h4 id="main-title">Student Evaluation Form</h4>
+                                
+                                    <form id = 'studentform'>
+                                        <div>
+                                            <label for="NameInput">Name</label>
+                                                <input type="text" id="NameInput" required placeholder="Enter Student Name">
+                                                    
+                                                        </div>
+
+                                                            <div>
+                                                                <label for="MarkInput">Mark</label>
+                                                                 <input type="Number" id="MarkInput" required placeholder="Enter Student Mark">
+                                                                  
+                                                                   </div>
+                                                                    
+                                                                     <div>
+                                                                         <button id="SubmitBtn">Submit</button>
+                                                                             
+                                                                             </div>
+
+                                                                             </form>
+
+                                                                             <div class = 'Student Results'>
+                                                                                     <h4> Results => </h4>
+                                                                                         <ul id = "Resultslist"></ul>
+                                                                                             
+                                                                                                     
+                                                                                </div>
+                                                                                                         
+                                                                          </div>
+                                                                                                              
+                                                                                                                  <script src="script.js"></script>
+                                                                        </body >               
+                                                                       </html>
